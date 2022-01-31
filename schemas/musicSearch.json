@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://our.example.com/musicSearch.json",
+    "type": "object",
+    "properties": {
+      "searchTerm": {
+        "type": "string",
+        "minLength": 1
+      },
+      "genre": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false,
+    "required": ["searchTerm"]
+  }
+  
